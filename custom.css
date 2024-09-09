@@ -1,3 +1,15 @@
+.img-border {
+    width:100%;
+}
+
+header>section.top {
+    background:#3f3f3f;
+}
+
+header>section.top a {
+    color:#fff;
+}
+
 header p.title a {
     position:relative;
     display:inline-block;
@@ -21,14 +33,52 @@ header p.title a::after {
 nav.mainmenu>ul>li.current-menu-item>a {
     color: #ff8400 !important;
 }
+
 header nav>ul ul {
     width: 170px;
 }
+
+.content {
+    max-width:1200px;
+}
+
+.home h2+p {
+    min-height:78px;
+}
+
 .color-black header .top a {
     color:#fff;
 }
 nav.mainmenu>ul>li>a {
     font-weight:500;
+}
+
+.social ul li a.telegram {
+    background:url("./images/contents/tele_logo.png")no-repeat center / cover scroll;
+    margin-left:-1px;
+    opacity:1;
+    border:1px solid #bbb;
+}
+
+
+.slider article h3 {
+    color:#fff;
+}
+
+.slider article p.intro-text {
+    font-size:1.8em;
+    line-height:1.4;
+    color:#fff;
+}
+
+.slider article div {
+    padding:2em;
+    background-color:rgba(0,0,0,0.4);
+    backdrop-filter:blur(4px);
+}
+
+.col4 img {
+    max-width:100% !important;
 }
 
 .content, .columns, .col1, .col2, .col3, col4, .col23, .col6, .col34 {
@@ -47,7 +97,7 @@ p {
     word-break: keep-all;
 }
 
-.team .img-border img {
+.img-border img {
     object-fit: cover;
 }
 
