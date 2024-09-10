@@ -21,6 +21,10 @@ a.button {
     width:100%;
 }
 
+header>section.main-header {
+    max-width:1200px;
+}
+
 header>section.top {
     background:#3f3f3f;
 }
@@ -124,7 +128,7 @@ nav.mainmenu>ul>li:first-child>a {
 
 .slider article div {
     padding:2em;
-    background-color:rgba(0,0,0,0.4);
+    background-color:rgba(0,0,0,0.75);
     backdrop-filter:blur(4px);
 }
 
@@ -134,6 +138,10 @@ nav.mainmenu>ul>li:first-child>a {
 
 .content, .columns, .col1, .col2, .col3, col4, .col23, .col6, .col34 {
     overflow:visible;
+}
+
+.content {
+    max-width:1200px;
 }
 
 .team h3 {
@@ -198,6 +206,71 @@ blockquote.quote a.button {
     .align-items-center {
         align-items:center;
     }
+
+    .justify-content-between {
+        justify-content:space-between;
+    }
+
+    .justify-content-center {
+        justify-content:center;
+    }
+}
+
+.network .title-number {
+    width:35px;
+    height:15px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    border-radius:50%;
+    background:#ff8400;
+    font-size:0.9em;
+}
+
+.network .counter {
+    background:url("./images/contents/network_counter_bg.jpg")no-repeat center / cover scroll;
+    color:#fff;
+    text-align:center;
+    padding:3em 5em;
+    gap:20em;
+    position:relative;
+}
+
+.network .counter > div {
+    position:relative;
+    z-index:2;
+}
+
+.network .counter::after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+    backdrop-filter:blur(2px);
+    -webkit-backdrop-filter:blur(2px);
+    z-index:1;
+}
+
+
+
+.network .counter h2 {
+    margin-top:0;
+    color:#fff;
+    font-size:3em;
+}
+
+.network h2 span.count {
+    border:0;
+}
+
+.network .counter p {
+    margin-bottom:0;
+    font-size:1.4em;
 }
 
 .columns>article.col1 > * {
@@ -239,10 +312,22 @@ footer article h3 {
     font-weight:400;
 }
 
+footer .bottom ul {
+    display:flex;
+    margin:0;
+    padding:0;
+    gap:10px;
+    justify-content:center;        
+}
+
 footer .bottom ul li {
     margin:0;
     padding:0;
     list-style:none;
+}
+
+footer section {
+    max-width:1200px;
 }
 
 .img-border-none > .img-border::before {
@@ -253,13 +338,6 @@ footer .bottom ul li {
     footer section {
         display:flex;
         justify-content: space-between;
-    }
-
-    footer .bottom ul {
-        display:flex;
-        margin:0;
-        padding:0;
-        gap:10px;        
     }
 
     footer .bottom ul li a {
