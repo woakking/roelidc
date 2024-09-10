@@ -11,6 +11,12 @@ footer {
     margin-top:auto;
 }
 
+a.button {
+    height:auto;
+    min-height:32px;
+    text-align:center;
+}
+
 .img-border {
     width:100%;
 }
