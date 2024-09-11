@@ -11,104 +11,15 @@
 	<link href="../style-headers.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="../style-colors.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="../custom.css" rel="stylesheet" type="text/css" media="screen">
+
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<link href="style-ie.css" rel="stylesheet" type="text/css" media="screen">
 	<![endif]-->
 </head>
 
-<body><div class="root">
-	<header class="h1 sticky-enabled no-topbar">
-		<section class="top">
-			<div>
-				<p>Call us: +82-70-70-7912-3308 | E-mail: 영업문의 <a href="mailto:sales@Seal.Shield" class="white">sales@Seal.Shield</a>, 기술문의 <a href="mailto:tech@Seal.Shield">tech@Seal.Shield</a></p>
-			</div>
-		</section>
-
-		<section class="main-header">
-			<p class="title"><a href="../index.html">Roel IDC</a></p>
-			<nav class="social">
-				<ul>
-					<li><a href="https://t.me/roelhost" target="_blank" class="telegram">Telegram</a></li>
-				</ul>
-			</nav>
-			<nav class="mainmenu">
-				<ul>
-					<li><a href="../index.html">홈</a></li>					
-					<li><a href="javascript:void(0);">디도스 보안존 상품</a>
-						<ul>		
-							<li><a href="../pages/virtualServer.html">가상 서버</a></li>
-							<li><a href="../pages/dedicatedServer.html">단독 서버</a></li>
-							<li><a href="../pages/japanDedicatedServer.html">일본 단독 서버</a></li>
-							<li><a href="../pages/bypassDefense.html">우회 방어 회선 연동</a></li>
-							<li><a href="javascript:void(0);">코로케이션</a></li>
-							<li><a href="javascript:void(0);">클라우드플레어 스펙트럼</a></li>
-						</ul>
-					</li>
-					<li><a href="../pages/network.html">네트워크</a></li>
-					<li><a href="javascript:void(0);">데이터센터</a>
-						<ul>
-							<li><a href="javascript:void(0);">대한민국</a>
-								<ul>
-									<li><a href="javascript:void(0);">KT Clean-Zone</a></li>
-									<li><a href="javascript:void(0);">SK Clean-Zone</a></li>
-									<li><a href="javascript:void(0);">Kinx Clean-Zone</a></li>
-								</ul>
-							</li>
-							<li><a href="javascript:void(0);">일본</a>
-								<ul>
-									<li><a href="javascript:void(0);">Tokyo-IDC</a></li>
-								</ul>
-							</li>
-							<li><a href="javascript:void(0);">미국</a>
-								<ul>
-									<li><a href="javascript:void(0);">Cloudflare 대한민국 리전</a></li>
-								</ul>
-							</li>
-						</ul>					
-					</li>					
-					<li class="current-menu-item"><a href="javascript:void(0);">고객지원·FAQ</a>
-						<ul>
-							<li><a href="../pages/contact.html">연락처</a></li>
-							<li><a href="javascript:void(0);">법률</a>
-								<ul>
-									<li><a href="../pages/term.html">서비스 이용약관</a></li>
-									<li><a href="../pages/privacy.html">개인정보 처리방침</a></li>
-								</ul>
-							</li>
-						</ul>
-					</li>				
-				</ul>
-				<span class="select"><select id="sec-nav" name="sec-nav" style="opacity: 0;">
-					<option value="#" selected="selected">Main Menu</option>
-					<option value="../index.html">Home</option>
-					<option value="javascript:void(0);">디도스 보안존 상품</option>
-					<option value="../pages/virtualServer.html">- 가상 서버</option>
-					<option value="../pages/dedicatedServer.html">- 단독 서버</option>
-					<option value="../pages/japanDedicatedServer.html">- 일본 단독 서버</option>						
-					<option value="../bypassDefense.html">- 우회 방어 회선 연동</option>
-					<option value="javascript:void(0);">- 코로케이션</option>
-					<option value="javascript:void(0);">- 클라우드플레어 스펙트럼</option>
-					<option value="../pages/network.html">네트워크</option>
-					<option value="javascript:void(0);">데이터센터</option>
-					<option value="javascript:void(0);">- 대한민국</option>
-					<option value="javascript:void(0);">-- KT Clean-Zone</option>
-					<option value="javascript:void(0);">-- SK Clean-Zone</option>
-					<option value="javascript:void(0);">-- Kinx Clean-Zone</option>
-					<option value="javascript:void(0);">- 일본</option>
-					<option value="javascript:void(0);">-- Tokyo-IDC</option>
-					<option value="javascript:void(0);">- 미국</option>
-					<option value="javascript:void(0);">-- Cloudflare 대한민국 리전</option>
-					<option value="javascript:void(0);">고객지원·FAQ</option>
-					<option value="../pages/contact.html">- 연락처</option>
-					<option value="javascript:void(0);">- 법률</option>
-					<option value="../pages/term.html">-- 서비스 이용약관</option>
-					<option value="../pages/privacy.html">-- 개인정보 처리방침</option>
-				</select></span>			
-			</nav>
-			<div class="clear"></div>
-		</section>
-	</header>
+<body class="customer"><div class="root">
+	<header class="h1 sticky-enabled no-topbar" data-include="../include/header.html"></header>
 	
 	<section class="breadcrumb p07">
 		<p><a href="../index.html">홈</a> <a href="#">고객지원·FAQ</a> 연락처</p>
@@ -119,12 +30,12 @@
 			<h1>How Can We Help?</h1>
 				<aside class="d-flex align-items-center" style="gap:30px;">
 					<section style="flex:1;">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6480.41110599802!2d139.715719!3d35.696559!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ce6ee84f7f1%3A0x26e57178c025b489!2z7J2867O4IOOAkjE2Mi0wMDU1!5e0!3m2!1sko!2skr!4v1725894866056!5m2!1sko!2skr" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50607.69555219578!2d126.60414545997304!3d37.55551208677222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b7f03cab6e1cb%3A0x167530d9a487535a!2z7J247LKc6rSR7Jet7IucIOyEnOq1rCDspJHrtInrjIDroZw!5e0!3m2!1sko!2skr!4v1726029932302!5m2!1sko!2skr" height="450" style="border:0; width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</section>
 					<section style="flex:1;">
 						<section>
 							<h3><span>Contact details</span></h3>
-							<p>Address: 162-0055, Tokyo, Tokyo, Japan<br />Phone: +82-70-70-7912-3308<br>E-mail: <a href="mailto:sales@Seal.shield">sales@Seal.shield</a> / <a href="mailto:tech@Seal.Shield">tech@Seal.Shield</a></p>
+							<p>Address: 인천광역시 서구 중봉대로<br />Phone: +82-70-70-7912-3308<br>E-mail: <a href="mailto:sales@Roel.IDC">sales@Roel.IDC</a> / <a href="mailto:tech@Roel.IDC">tech@Roel.IDC</a></p>
 						</section>
 						<section class="social">
 							<h3><span>Get social</span></h3>
@@ -140,38 +51,13 @@
 		
 	</section>
 
-	<footer>
-		<section class="widgets">
-			<article class="widget">
-				<h3><span>Contact Us</span></h3>
-				<p>Roel IDC<br>Next Generation Cloud Platform<br />일본 법인 사업자 정보</p>
-			</article>
-			<article class="widget">
-				<h3><span>고객 지원</span></h3>
-				<ul>
-					<li>영업 문의 <a href="#">sales@Seal.Shield</a></li>
-					<li>기술 문의 <a href="#">tech@Seal.Shield</a></li>
-					<li>전화 문의 <a href="#">+82-70-70-7912-3308</a></li>
-				</ul>
-			</article>
-			<article class="widget">
-				<h3><span>주소</span></h3>
-				<ul>
-					<li>ソフトバンクidcセンター (소프트뱅크)</li>
-				</ul>
-			</article>
-		</section>
-		<section class="bottom">
-			<p>© 2024 Roel IDC, All Rights Reserved.</p>
-			<ul>
-				<li><a href="../pages/term.html">서비스 이용약관</a></li>
-				<li><a href="../pages/privacy.html">개인정보 처리방침</a></li>
-			</ul>
-		</section>
-	</footer></div>
+	<footer data-include="../include/footer.html"></footer></div>
 
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	<script type="text/javascript" src="../js/scripts.js"></script>
+
+	<script src="../js/common.js"></script>
+
 	<!--[if lt IE 9]>
 		<script type="text/javascript" src="js/ie.js"></script>
 	<![endif]-->

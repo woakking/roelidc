@@ -57,6 +57,19 @@ nav.mainmenu>ul>li.current-menu-item>a {
     color: #ff8400 !important;
 }
 
+.nav-item-title {
+    padding:4px 15px 4px 14px;
+    font-weight:600;
+    color:#ff8400;
+    text-transform:uppercase;
+}
+
+.mob-nav-item-title {
+    color:#ff8400;
+    font-weight:600;
+    text-transform:uppercase;
+}
+
 .contact {
     width:100%;
 }
@@ -277,17 +290,57 @@ blockquote.quote a.button {
     flex:1 0 50%;
 }
 
+@media screen and (min-width:992px) {
+    .pricing-plans {
+        display:flex !important;
+        gap:10px;
+    }
+
+    .pricing-plan {
+        flex:1;
+        float:none;
+        width:auto;
+        margin:20px 0 30px 0;
+    }
+}
+
+.pricing-plan {
+    max-height:317px;
+    height:auto;
+}
+
 .pricing-plan h2 {
     font-size:1.6em !important;
     padding:1em 0;
+    background:#fff1d9;
+    margin-bottom:15px;
 }
 
 .pricing-plan p.price strong {
     font-size:1.8em;
 }
 
+.pricing-plan ul {
+    margin:1em 0;
+}
+
 .pricing-plan ul li {
     word-break:keep-all;
+    margin:5px 0;
+}
+
+.pricing-plan ul li .img-border {
+    width:auto;
+    margin-right:10px;
+}
+
+.pricing-plan ul li .img-border::before {
+    display:none;
+}
+
+.pricing-plan ul li .img-border img {
+    width:20px;
+    height:20px
 }
 
 blockquote.quote {
