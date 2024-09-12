@@ -37,7 +37,7 @@ header p.title a {
     position:relative;
     display:inline-block;
 }
-header p.title a::before, header p.title a::after {
+/* header p.title a::before, header p.title a::after {
     content:"";
     position:absolute;
     width:30px;
@@ -52,7 +52,7 @@ header p.title a::before {
 header p.title a::after {
     bottom:3px;
     right:-10px;
-}
+} */
 nav.mainmenu>ul>li.current-menu-item>a {
     color: #ff8400 !important;
 }
