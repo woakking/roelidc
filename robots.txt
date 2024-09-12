@@ -5,3 +5,5 @@ Allow: /
 
 User-agent: bingbot
 Crawl-delay: 10
+
+Sitemap: https://roel-idc.com/sitemap.xml
