@@ -201,6 +201,10 @@ blockquote.quote a.button {
     margin-left:-55px;
 }
 
+.d-none {
+    display:none !important;
+}
+
 @media screen and (min-width:768px) {
     .team.col1 .img-border {
         width:50%;
