@@ -129,6 +129,18 @@ nav.mainmenu>ul>li:first-child>a {
     border:1px solid #bbb;
 }
 
+.slider article ul,
+.slider article li {
+    margin:0;
+}
+
+.slider article h1 {
+    color:#fff;
+    margin:0;
+    font-size:1.4em;
+    margin-top:5px;
+}
+
 .slider article h3 {
     color:#fff;
 }
@@ -219,6 +231,10 @@ blockquote.quote a.button {
 
     .d-flex {
         display:flex;
+    }
+
+    .flex-direction-column-reverse {
+        flex-direction: column-reverse;
     }
     
     .align-items-center {
