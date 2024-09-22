@@ -39,6 +39,9 @@ function includeHTML() {
                             case "customer" :
                                 $("li[data-nav-item='" + menuActiveClass + "']").addClass("current-menu-item");
                                 break;
+                            case "etc" :
+                            $("li[data-nav-item='" + menuActiveClass + "']").addClass("current-menu-item");
+                            break;
                         }
                     }
                 })
